@@ -1,0 +1,97 @@
+body {
+  text-align: center;
+  background-color: #000000; 
+  margin: 0;
+  font-family:'Raleway', sans-serif;
+  }
+
+h1, h2 {
+  text-align: center; 
+  color: #FFFFFF;
+}
+
+ h1 {
+  font-weight: 800;
+  font-size: 3.75em;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+nav {
+  text-align: center;
+  font: normal normal 300 25px/30px Raleway;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+p{
+  color: #FFFFFF;
+  font: normal normal 300 25px/30px Raleway;
+  }
+
+.iguanas {
+  text-align: center; 
+    color: #ffffff;
+      }
+
+.iguanas img {
+top: 73px;
+left: 0px;
+width: 1280px;
+height: 727px;
+opacity: 1;
+}
+
+.iguana-1 img {
+  top: 845px;
+  left: 731px;
+  width: 399px;
+  height: 237px;
+  background-image: url('Assets/img/iguana-1.jpg');
+  opacity: 1;
+    }
+
+.iguana-texto {
+  top: 876px;
+  left: 150px;
+  width: 72.5%;
+  height: 197px;
+  opacity: 1;
+  vertical-align: middle;
+  margin-left: 2.5%;
+  text-align: left;
+  white-space: normal;
+}
+
+.grey {
+  text-align: center;
+  background:#1e1a13;
+  color: #ffffff;
+  padding: 3.125rem;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+  }
+
+section, footer {
+  margin-top: 4.5rem;
+}
+
+footer {
+  padding: 3.125rem;
+}
+
+.iguana-1, .iguana-texto {
+  display: inline-block;
+}
+
+
+
+ 
