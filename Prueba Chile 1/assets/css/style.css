@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: black;
   }
   
   header {
@@ -7,20 +8,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-bottom: 10rem;
-    
+    padding-bottom: 10rem;    
+  }
+
+  .oscuro{
+    background-color: black;
   }
 
   .text-nav {
     font-family: 'Raleway', sans-serif;
     }
 
- .navbar-dark {
-    background-color:transparent;
-}
-
-.hero-line{
-width: 350px;
+ .hero-line{
+width: 1150px;
 height: 1px;
 
 } 
