@@ -30,8 +30,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
     <div class="container">
       <div>
-        <a class="navbar-brand mr-auto" href="#"> <img src="assets/img/viajes.svg" alt="Viajes chile" width="132px"
-            height="53"></a>
+        <a class="navbar-brand mr-auto" href="#"> <img data-toggle="modal" data-target="#exampleModal"
+            src="assets/img/viajes.svg" alt="Viajes chile" width="132px" height="53"></a>
         <a class="navbar-brand" href="">Viajes Chile</a>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -88,9 +88,7 @@
       <div class="row py-5">
         <div class="col-md-4">
           <div class="bg-info text-white">
-            <i 
-            data-toggle="tooltip" data-placement="top" title="Vuelos"
-            class="fas fa-plane fa-2x my-2"></i>
+            <i data-toggle="tooltip" data-placement="top" title="Vuelos" class="fas fa-plane fa-2x my-2"></i>
           </div>
           <p class="my-3 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
             incididunt ut
@@ -121,15 +119,12 @@
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.</p>
           <div class="bg-info text-white">
-            <i 
-            data-toggle="tooltip" data-placement="top" title="Excursiones"
-            class="fas fa-mountain fa-2x my-2"></i>
+            <i data-toggle="tooltip" data-placement="top" title="Excursiones" class="fas fa-mountain fa-2x my-2"></i>
           </div>
         </div>
         <div class="col-md-4">
           <div class="bg-info text-white">
-            <i  data-toggle="tooltip" data-placement="top" title="itinerarios"
-            class="fas fa-route fa-2x my-2"></i>
+            <i data-toggle="tooltip" data-placement="top" title="itinerarios" class="fas fa-route fa-2x my-2"></i>
           </div>
           <p class="my-3 text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
             incididunt ut
@@ -159,10 +154,6 @@
       <div class="row py-5">
         <div class="col-12 col-sm-3">
           <div class="card">
-            <i
-            data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">
-            
-            </i>
             <img class="card-img-top" src="assets/img/card1.jpg" alt="card1">
             <div class="card-body bg-info">
               <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -210,7 +201,9 @@
       <h2 class="display-7 text-center my-4 text-white">Contacto</h2>
       <hr class="bg-info hero-line">
     </div>
-    <div class="typeform-widget" data-url="https://form.typeform.com/to/LsllrOfd?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+    <div class="typeform-widget" data-url="https://form.typeform.com/to/LsllrOfd?typeform-medium=embed-snippet"
+      style="width: 100%; height: 500px;"></div>
+    <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
   </section>
 
 
@@ -228,22 +221,31 @@
     </div>
   </footer>
 
-  <!--jQuery 3.3.1 sin slim-->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header text-center text-black">
+          <h5 class="modal-title" id="viajes chile" >Somos expertos en viajes dentro de Chile, te ofrecemos destinos maravillosos!</h5>
+        </div>
+      </div>
+    </div>
+    <!--jQuery 3.3.1 sin slim-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-  <!--Popper JS 1.14.3-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-    crossorigin="anonymous"></script>
+    <!--Popper JS 1.14.3-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"></script>
 
-  <!--Bootstrap JS 4.2.1-->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
+    <!--Bootstrap JS 4.2.1-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"></script>
 
-  <!--Mi script-->
-  <script src="assets/js/script.js"></script>
+    <!--Mi script-->
+    <script src="assets/js/main.js"></script>
 
 </body>
 
