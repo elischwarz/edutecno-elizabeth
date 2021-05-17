@@ -1,0 +1,26 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+  }
+  
+  header {
+    background-image: url('../img/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10rem;    
+  }
+
+  .oscuro{
+    background-color: black;
+  }
+
+  .text-nav {
+    font-family: 'Raleway', sans-serif;
+    }
+
+ .hero-line{
+width: 1150px;
+height: 1px;
+
+} 
