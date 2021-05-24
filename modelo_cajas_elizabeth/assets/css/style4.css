@@ -1,0 +1,29 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .container {
+            margin: 0px;
+            width: 100%;
+        }
+        
+        .main {
+            background-color: #b0ccab;
+            padding: 50px;
+        }
+        
+        .parrafo1 {
+            position: relative;
+            width: 400%;
+            height: 200%;
+        }
+        
+        .main_paragraph {
+            position: absolute;
+            top: 80px;
+            right: 0;
+            width: 200%;
+            height: 100%;
+        }

@@ -1,0 +1,132 @@
+                    body {
+                        margin: 0;
+                        padding: 0;
+                        font-family: 'Raleway', sans-serif;
+                    }
+                    
+                    .navbar {
+                        width: 100%;
+                        background-color: green;
+                        display: inline-block;
+                    }
+                    
+                    .main {
+                        margin: 5px;
+                    }
+                    
+                    .box {
+                        border: 2px solid #808080;
+                        height: 100px;
+                        width: 25%;
+                        padding: 5px;
+                        display: inline-block;
+                        box-sizing: border-box;
+                        margin-right: -5px;
+                    }
+                    
+                    .box-text-img {
+                        border: 2px solid #808080;
+                        height: max-content;
+                        width: 25%;
+                        padding: 5px;
+                        display: inline-block;
+                        box-sizing: border-box;
+                        text-align: center;
+                        margin-right: -5px;
+                    }
+                    
+                    .square {
+                        height: 200px;
+                        width: 200px;
+                    }
+                    
+                    .square_red {
+                        background-color: rgba(255, 0, 0, .5);
+                        z-index: -1;
+                    }
+                    
+                    .square_green {
+                        background-color: rgba(0, 255, 0, .5);
+                        left: 25px;
+                        position: absolute;
+                        top: 25px;
+                        z-index: -2;
+                    }
+                    
+                    .square_blue {
+                        background-color: rgba(0, 0, 255, .5);
+                        left: 50px;
+                        position: absolute;
+                        top: 50px;
+                        z-index: -3;
+                    }
+                    
+                    .container {
+                        margin: 10px;
+                        border: 1px solid #808080;
+                        height: 300px;
+                        width: 500px;
+                        float: left;
+                    }
+                    
+                    .espana-red {
+                        height: 30%;
+                        background-color: red;
+                    }
+                    
+                    .espana-yellow {
+                        height: 40%;
+                        background-color: yellow;
+                    }
+                    
+                    .dinamarca-red1 {
+                        height: 45%;
+                        background-color: red;
+                    }
+                    
+                    .dinamarca-white1 {
+                        height: 10%;
+                        background-color: white;
+                    }
+                    
+                    .dinamarca-white2 {
+                        width: 6%;
+                        height: 100%;
+                        background-color: white;
+                        position: relative;
+                        float: left;
+                        left: 25%;
+                    }
+                    
+                    .emiratos-red {
+                        width: 25%;
+                        height: 100%;
+                        background-color: red;
+                        float: left;
+                    }
+                    
+                    .emiratos-green {
+                        height: 33.3%;
+                        background-color: green;
+                    }
+                    
+                    .emiratos-white {
+                        height: 33.3%;
+                        background-color: white;
+                    }
+                    
+                    .emiratos-black {
+                        height: 33.3%;
+                        background-color: black;
+                    }
+                    
+                    .japon {
+                        background-color: red;
+                        border-radius: 50%;
+                        height: 130px;
+                        width: 130px;
+                        position: relative;
+                        float: inherit;
+                        top: 25%;
+                        left: 35%;
+                    }
