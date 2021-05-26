@@ -12,6 +12,13 @@
                     
                     .main {
                         margin: 5px;
+                        background-color: #b0ccab;
+                        padding: 50px;
+                    }
+                    
+                    .main_paragraph {
+                        position: relative;
+                        left: 40px;
                     }
                     
                     .box {
