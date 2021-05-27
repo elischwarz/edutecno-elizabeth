@@ -11,7 +11,10 @@
                     }
                     
                     .main {
-                        margin: 5px;
+                        margin: 10px;
+                    }
+                    
+                    .main1 {
                         background-color: #b0ccab;
                         padding: 50px;
                     }
@@ -19,6 +22,11 @@
                     .main_paragraph {
                         position: relative;
                         left: 40px;
+                    }
+                    
+                    .textparrafo {
+                        text-align: left;
+                        margin-right: 10px;
                     }
                     
                     .box {
@@ -32,7 +40,7 @@
                     }
                     
                     .box-text-img {
-                        border: 2px solid #808080;
+                        border: 0px;
                         height: max-content;
                         width: 25%;
                         padding: 5px;
@@ -136,4 +144,119 @@
                         float: inherit;
                         top: 25%;
                         left: 35%;
+                    }
+                    
+                    .lente {
+                        left: 50px;
+                        position: absolute;
+                        top: 50px;
+                    }
+                    
+                    .oferta {
+                        left: 50px;
+                        position: relative;
+                        top: 50px;
+                    }
+                    
+                    .bateria {
+                        left: 50px;
+                        position: relative;
+                        top: 50px;
+                    }
+                    
+                    .despacho {
+                        left: 190px;
+                        position: absolute;
+                        top: 160px;
+                    }
+                    
+                    .siteoftheday {
+                        right: 0px;
+                        position: fixed;
+                        top: 50px;
+                    }
+                    
+                    ul.menu {
+                        list-style: none;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    ul.menu li {
+                        background: olive;
+                        box-sizing: border-box;
+                        float: left;
+                        width: 25%;
+                    }
+                    
+                    ul.menu li a {
+                        color: #FFF;
+                        display: block;
+                        padding: 10px;
+                        text-decoration: none;
+                    }
+                    
+                    ul.menu li a:hover {
+                        background: #000;
+                    }
+                    
+                    .p8 {
+                        padding: 10px;
+                        clear: left
+                    }
+                    
+                    .contenedor {
+                        margin-left: 100px;
+                        margin-right: 100px;
+                        border: 0px;
+                        font-family: 'Roboto', sans-serif;
+                        height: 400px;
+                        width: 1200px;
+                        display: inline-block;
+                        position: absolute;
+                    }
+                    
+                    .navbar9 {
+                        color: #FFF;
+                        left: 10px;
+                        background-color: black;
+                        display: inline-block;
+                        width: 100%;
+                        height: 20%;
+                    }
+                    
+                    h1 {
+                        margin: 10px;
+                    }
+                    
+                    .marginp {
+                        margin: 10px;
+                    }
+                    
+                    .menu {
+                        width: 40%;
+                        height: 70%;
+                        background-color: lightgray;
+                        float: left;
+                    }
+                    
+                    .item {
+                        color: royalblue;
+                    }
+                    
+                    .subtitulo {
+                        width: 60%;
+                        height: 70%;
+                        display: inline-block;
+                        text-align: left;
+                        float: left;
+                    }
+                    
+                    .footer {
+                        color: white;
+                        background-color: grey;
+                        text-align: center;
+                        height: 10%;
+                        width: 100%;
+                        float: left;
                     }
