@@ -1,26 +1,25 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-color: black;
-  }
-  
-  header {
+}
+
+header {
     background-image: url('../img/header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-bottom: 10rem;    
-  }
+    padding-bottom: 10rem;
+}
 
-  .oscuro{
+.oscuro {
     background-color: black;
-  }
+}
 
-  .text-nav {
+.text-nav {
     font-family: 'Raleway', sans-serif;
-    }
+}
 
- .hero-line{
-width: 1150px;
-height: 1px;
-
-} 
+.hero-line {
+    width: 1150px;
+    height: 1px;
+}

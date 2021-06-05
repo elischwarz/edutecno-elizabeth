@@ -1,0 +1,23 @@
+/* Base */
+
+.button {
+    padding: 20px;
+    font-family: $montserrat;
+    font-size: $montserrat-regular;
+    font-weight: $montserrat-regular;
+}
+
+
+/* Button Scheme */
+
+.button_primary {
+    color: $white;
+    background-color: $sky-blue;
+    margin-right: 0px;
+}
+
+.button_secundary {
+    color: $white;
+    background-color: $persimmon;
+    margin-right: 50px;
+}
