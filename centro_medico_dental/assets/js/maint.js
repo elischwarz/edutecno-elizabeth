@@ -72,6 +72,6 @@ for (var i = 0; i < traumatologia.length; i++) {
 document.getElementById("tabla-traumatologia").innerHTML = texto;
 
 
-document.write('Primera atención: ' + traumatologia[0].Paciente + ' - ' + traumatologia[0].Previsión + ' | ' + 'Última atención: ' + traumatologia[4].Paciente + ' - ' + traumatologia[4].Previsión);
+document.write('Primera atención: ' + traumatologia[0].Paciente + ' - ' + traumatologia[0].Previsión + ' | ' + 'Última atención: ' + traumatologia[6].Paciente + ' - ' + traumatologia[6].Previsión);
 
 //Aqui termina tabla traumatologia//

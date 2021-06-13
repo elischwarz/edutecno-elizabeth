@@ -65,6 +65,6 @@ for (var i = 0; i < dental.length; i++) {
 document.getElementById("tabla-dental").innerHTML = texto;
 
 
-document.write('Primera atención: ' + dental[0].Paciente + ' - ' + dental[0].Previsión + ' | ' + 'Última atención: ' + dental[4].Paciente + ' - ' + dental[4].Previsión);
+document.write('Primera atención: ' + dental[0].Paciente + ' - ' + dental[0].Previsión + ' | ' + 'Última atención: ' + dental[5].Paciente + ' - ' + dental[5].Previsión);
 
 //Aqui termina tabla dental//
