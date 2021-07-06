@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Super Hero</title>
+    <meta name="author" content="Elizabeth Schwarzenberg">
+    <meta name="description" content="Super Hero">
+    <meta name="Keywords" content="Super Hero">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icono" href="assets/img/favicon.ico">
+
+    <!--recurso CSS de bootstrap 4.5.3-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!--Recurso jQuery 3.6.0-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!--Api Superhero-->
+    <link href="https://superheroapi.com/api/10226328610220431">
+
+    <script type="text/JavaScript" src="script.js"></script>
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+        <img src="assets/img/sh2.jpg" alt="logo super hero" width="30px">
+        <a class="navbar-brand text-nav mx-2" href="">SuperHero</a>
+    </nav>
+
+    <div class="container text-center">
+        <img class="justify-content-center" src="assets/img/sh1.jpg" alt="SuperHero">
+    </div>
+    <section class="mx-4">
+        <div class="text-light-dark ml-2">
+            <h2 id="encuentra tu SuperHero" class="my-2">Encuentra tu SuperHero</h2>
+        </div>
+        <!--form class="align-center"-->
+        <div class="my-2">
+            <p><label for="inputnumberhero" class="visually-hidden">Ingresa el número del SuperHero a buscar</label>
+            </p>
+
+            <input id="numberhero" required type="text" class="form-control">
+            <button id="buscar" type="submit" class="btn bg-primary text-white my-2">Buscar</button>
+
+        </div>
+        <!--/form-->
+        <div>
+            <div id="response" class="response">
+                <h2> SuperHero Encontrado</h2>
+            </div>
+
+
+            <div class="card col-4">
+                <img id="card_image" class="card-img-top" src="assets/img/sh1.jpg" width="30px">
+                <div class="card-body">
+                    <h5 id="card_name" class="card-title"></h5>
+
+                    <p id="card_alianzas" class="card-text">Alianzas:</p>
+                    <hr>
+                    <p id="card_coneccion" class="card-text">Conección:</p>
+                    <hr>
+                    <p id="card_ocupacion" class="card-text">Ocupación:</p>
+                    <hr>
+                    <p id="card_aparicion" class="card-text">1ra Aparición:</p>
+                    <hr>
+                    <p id="card_altura" class="card-text">Altura:</p>
+                    <hr>
+                    <p id="card_peso" class="card-text">Peso:</p>
+                </div>
+            </div>
+
+
+            <div class="card col-4">
+                <div id="chartContainer">
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!--Canvas JQuery-->
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+
+    <!--Mi Script.js-->
+    <script type="text/JavaScript" src="script.js"></script>
+
+</body>
+
+</html>
