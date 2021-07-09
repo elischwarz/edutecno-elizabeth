@@ -7,7 +7,7 @@ $(document).ready(function() {
 
             $.ajax({
                 Type: "GET",
-                url: "https://superheroapi.com/api/10226328610220431/" + num + "/",
+                url: "https://superheroapi.com/api.php/10226328610220431/" + num + "/",
                 success: function(response) {
                     console.log(response);
                     $('#card_name').text(response.name);
