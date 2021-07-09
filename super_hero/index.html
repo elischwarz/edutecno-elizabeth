@@ -22,8 +22,6 @@
 
     <script type="text/JavaScript" src="script.js"></script>
 
-
-
 </head>
 
 <body>
@@ -39,7 +37,7 @@
         <div class="text-light-dark ml-2">
             <h2 id="encuentra tu SuperHero" class="my-2">Encuentra tu SuperHero</h2>
         </div>
-        <!--form class="align-center"-->
+
         <div class="my-2">
             <p><label for="inputnumberhero" class="visually-hidden">Ingresa el número del SuperHero a buscar</label>
             </p>
@@ -48,42 +46,38 @@
             <button id="buscar" type="submit" class="btn bg-primary text-white my-2">Buscar</button>
 
         </div>
-        <!--/form-->
-        <div>
-            <div id="response" class="response">
-                <h2> SuperHero Encontrado</h2>
-            </div>
 
 
-            <div class="card col-4">
-                <img id="card_image" class="card-img-top" src="assets/img/sh1.jpg" width="30px">
-                <div class="card-body">
-                    <h5 id="card_name" class="card-title"></h5>
-
-                    <p id="card_alianzas" class="card-text">Alianzas:</p>
-                    <hr>
-                    <p id="card_coneccion" class="card-text">Conección:</p>
-                    <hr>
-                    <p id="card_ocupacion" class="card-text">Ocupación:</p>
-                    <hr>
-                    <p id="card_aparicion" class="card-text">1ra Aparición:</p>
-                    <hr>
-                    <p id="card_altura" class="card-text">Altura:</p>
-                    <hr>
-                    <p id="card_peso" class="card-text">Peso:</p>
-                </div>
-            </div>
-
-
-            <div class="card col-4">
-                <div id="chartContainer">
-                </div>
-            </div>
-
-
-        </div>
     </section>
 
+
+    <div class="container row">
+        <div class="card col-4">
+            <img id="card_image" class="card-img-top" src="assets/img/sh1.jpg" width="100%">
+        </div>
+
+        <div class="card-body col-4">
+            <h4>SuperHero Encontrado</h4>
+            <hr>
+
+            <h5 id="card_name" class="card-title"></h5>
+
+            <p id="card_alianzas" class="card-text">Alianzas:</p>
+            <hr>
+            <p id="card_coneccion" class="card-text">Conección:</p>
+            <hr>
+            <p id="card_ocupacion" class="card-text">Ocupación:</p>
+            <hr>
+            <p id="card_aparicion" class="card-text">1ra Aparición:</p>
+            <hr>
+            <p id="card_altura" class="card-text">Altura:</p>
+            <hr>
+            <p id="card_peso" class="card-text">Peso:</p>
+        </div>
+
+        <div class="card col-4" id="chartContainer" width="100%"></div>
+
+    </div>
 
     <!--Canvas JQuery-->
     <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
